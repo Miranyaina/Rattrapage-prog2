@@ -15,7 +15,7 @@ public abstract class immeuble extends endroit {
         this.appartement.add(appartement);
     }
 
-    public int compterAppartements() {
+    public int compterLesAppartements() {
         return appartement.size();
     }
 
