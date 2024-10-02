@@ -7,4 +7,8 @@ public abstract class Quartier extends endroit{
         super(id, nom);
         this.immeubles = new ArrayList<>();
     }
+
+    public void ajouterImmeuble(immeuble immeubles) {
+        this.immeubles.add(immeubles);
+    }
 }
